@@ -1,0 +1,96 @@
+body {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    background-color: rgb(35, 35, 77);
+}
+
+footer {
+    background-color: grey;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+.headCont {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: auto;
+    text-align: center;
+}
+
+.topCont {
+    font-size: 40px;
+}
+
+.topButtons {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.picBox {
+    width: 200px;
+    height: auto;
+    background-color: grey;
+
+}
+
+.mamaco2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.paraCont {
+    flex: 1;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.picBox {
+    flex: 1.8;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+.mamaco {
+    display: flex;
+    width: 1100px;
+    height: auto;
+    gap: 200px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cube {
+    display: block;
+    margin-top: 20px;
+}
+
+.mainCube {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+}
+.box2 #cube{
+    border: rgb(255, 255, 255) 7px solid;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
